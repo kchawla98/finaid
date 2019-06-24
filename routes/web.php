@@ -14,6 +14,19 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/scholarships', function () {
+    return view('scholarships');
+});
+Route::get('/internships', function () {
+    return view('internships');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/signup', function () {
+    return view('signup');
+});
+
 // Route::get('/home', function () {
 //     return view('home');
 // });
